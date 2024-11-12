@@ -1,0 +1,20 @@
+// import Person from "../models/personModel.js";
+// import mongoose from "mongoose";
+
+// // create many records with person.model
+// const peopleArray = async (req, res) => {
+//   [
+//     { name: "James", age: 89, favoriteFoods: ["Plantain", "Sushi", "Bread"] },
+//     { name: "David", age: 39, favoriteFoods: ["Meat", "Salad", "Pizza"] },
+//     { name: "Steve", age: 50, favoriteFoods: ["Pasta", "Cake", "Milk"] },
+//   ];
+
+//   await Person.create(peopleArray, (err, data) => {
+//     if (err) {
+//       console.log(err);
+//     } else {
+//       console.log(data);
+//     }
+//     return;
+//   });
+// };
